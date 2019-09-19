@@ -11,11 +11,20 @@ body {
 }
 
 .btn-secondary {
-	border-radius: 0px;
 	color:white;
 	background-color:rgb(44,47,51);
+	border: none;
 }
 
 .abcd {
 	background-color:rgb(44,47,51);
+}
+
+.bg-secondary {
+	background-color:rgb(44,47,51);
+}
+
+.hoverable:hover .dropdown-menu{
+	display:block;
+	margin-top: 0;
 }
