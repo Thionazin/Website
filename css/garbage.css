@@ -1,3 +1,21 @@
 h1 {
 	color:blue;
 }
+
+body {
+	background-color:rgb(168,168,168);
+}
+
+.btn-primary {
+	border-radius: 0px;
+}
+
+.btn-secondary {
+	border-radius: 0px;
+	color:white;
+	background-color:rgb(44,47,51);
+}
+
+.abcd {
+	background-color:rgb(44,47,51);
+}
