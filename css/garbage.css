@@ -14,6 +14,8 @@ body {
 	color:white;
 	background-color:rgb(44,47,51);
 	border: none;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	border-radius: 0px;
 }
 
 .abcd {
@@ -27,4 +29,26 @@ body {
 .hoverable:hover .dropdown-menu{
 	display:block;
 	margin-top: 0;
+}
+
+.dropdown-toggle {
+	border: none;
+	border-radius: 0px;
+}
+
+.dropdown-menu {
+	border: none;
+	border-radius: 0px;
+	background-color:rgb(44,47,51);
+}
+
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #8599a0;
+  text-decoration: none;
+  background-color:rgb(44,47,51);
+}
+
+.dropdown-item {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color:white;
 }

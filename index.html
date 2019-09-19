@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="./css/garbage.css">
 	<head>
 		<title>Styrene</title>
@@ -10,11 +11,10 @@
   		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 	</head> 
-
 	<body>
-		<div class="abcd">
+		<div class="abcd text-center">
 			<div class="btn-group">
-				<a href="index.html" class="btn btn-secondary" role="button">Home</a>
+				<a href="index.html" class="btn btn-secondary" role="button"><i class="fa fa-home"></i></a>
 				<div class="dropdown hoverable">
  					<a href="#" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown">Web Apps <span class="caret"></span></a> 
     				<div class="dropdown-menu">
@@ -32,5 +32,29 @@
   				<a href="about.html" class="btn btn-secondary" role="button">About Me</a>
 			</div>
 		</div>
+		<section>
+  			<img class="slideShow" src="./images/panoramic.jpg" style="width:100%">
+  			<img class="slideShow" src="./images/panoramic.jpg" style="width:100%">
+  			<img class="slideShow" src="./images/panoramic.jpg" style="width:100%">
+		</section>
 	</body>
 </html> 
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("slideShow");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+
+
+</script>
