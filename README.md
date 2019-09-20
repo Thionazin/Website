@@ -1,2 +1,4 @@
 # Website
-A personal website made to help me learn more about creating websites
+A personal website made to help me learn more about creating websites.
+
+I'm not sure if I have to say this anywhere or where I have to, but most of the images don't belong to me.
