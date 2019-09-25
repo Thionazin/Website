@@ -94,6 +94,14 @@ body {
 	background-color:white;
 }
 
+.dropdown-toggle:hover {
+    color: #8599a0 !important;
+}
+
+.btn-secondary:hover {
+    color: #8599a0 !important;
+}
+
 a {
 	color: none;
     text-decoration: none;
