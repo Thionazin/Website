@@ -1,5 +1,5 @@
 # Website
-A personal website made to help me learn more about creating websites.
+A website made with Bootstrap 4 and W3CSS.
 
 https://www.styrene.xyz
 
